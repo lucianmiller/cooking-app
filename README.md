@@ -1,20 +1,20 @@
 # Cooking App
 
-#### JavaScript and Jquery practice for Epicodus, 3/5/2021
+#### JavaScript and jQuery business logic and user interface practice for Epicodus, 3/24/2021
 
 #### By Lucian Miller
 
 ## Description
 
-An app for cooking that converts gallons to liters. This project was used to learn how JavaScript functions work and how to take input from a user and change it to a different number.
+An app for cooking that converts gallons to liters. This project was used to learn how JavaScript functions work the difference between business logic and user interface.
 
 ## Setup/Installation Requirements
 
 * Copy this repository
 * Open file
 * Open index.html
-* Type only numbers in the prompt that appears
-* Refresh page in order to use again
+* Type the volume of gallons in the box
+* Press the convert button
 
 ## Known Bugs
 
@@ -29,7 +29,10 @@ lucian.miller185@gmial.com
 * git
 * VS code
 * HTML
+* Bootstrap
+* CSS
 * JavaScript
+* jQuery
 
 ### License
 
