@@ -2,6 +2,11 @@ const convertGL = function(volume) {
   return volume * 3.785;
 };
 
-const volumeGallons = parseInt(prompt("Enter volume in gallons:"))
-
-alert((volumeGallons + " gallons is equal to " + convertGL(volumeGallons) + " liters"));
+$(document).ready(function() {
+  $("form#convert").submit(function(event) {
+    event.preventDefault();
+    const volume = parseInt($("#volumeGallons").val());
+    const result = convertGL(volume);
+    $("#output").text(result);
+  });
+});
